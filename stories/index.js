@@ -27,4 +27,28 @@ storiesOf("Text", module)
 		<div style={{ paddingTop: 50 }}>
 			<Text>😀 😎 👍 💯</Text>
 		</div>
+	))
+	.add("text bold", () => (
+		<div style={{ paddingTop: 50 }}>
+			<Text bold>aaaaaaaaaaaa</Text>
+		</div>
+	))
+	.add("text link", () => (
+		<div style={{ paddingTop: 50 }}>
+			<Text link>aaaaaaaaaaaa</Text>
+		</div>
+	))
+	.add("text green", () => (
+		<div style={{ paddingTop: 50 }}>
+			<Text bold color="green">
+				aaaaaaaaaaaa
+			</Text>
+		</div>
+	))
+	.add("text pink", () => (
+		<div style={{ paddingTop: 50 }}>
+			<Text link bold color="pink">
+				aaaaaaaaaaaa
+			</Text>
+		</div>
 	));
